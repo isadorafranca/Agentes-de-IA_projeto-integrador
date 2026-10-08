@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "superstore-multiagent"
+version = "0.1.0"
+description = "Pipeline multiagente Agno para análise da Superstore USA"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.0",
+  "tabulate>=0.9",
+  "agno>=1.0",
+  "google-genai>=1.0",
+  "google-auth==2.49.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

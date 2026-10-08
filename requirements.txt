@@ -1,0 +1,6 @@
+pandas>=2.0
+pytest>=8.0
+tabulate>=0.9
+agno>=1.0
+google-genai>=1.0
+google-auth==2.49.0
